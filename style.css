@@ -75,7 +75,7 @@ body {
 
     a{
         color: white;
-        text-decoration: none;
+        
         
 
     }
@@ -122,6 +122,38 @@ a:hover::after {
 }
 
 @media (max-width: 768px) {
+
+    .title {
+        font-size: 58px;
+        color: white;
+        font-weight: 500;
+    }
+
+    
+    .subtitle-vol {
+        font-size: 16px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .subtitle-nativity {
+        font-size: 32px;
+        color: white;
+        font-weight: 500;
+        margin-top: -36px;
+    }
+
+    .subtitle-data {
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .subtitle-meet{
+        font-size: 28px !important;
+        font-family: 'Roboto', sans-serif;
+    }
+
 
     .subtitle {
         font-size: 32px;
